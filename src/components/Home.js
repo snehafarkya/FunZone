@@ -1,6 +1,7 @@
 import React from 'react'
 import MovingComponent from 'react-moving-text'
 import homeill from '../Assests/homeill.webp'
+import Buttonn from './Buttonn'
 export default function Home() {
   return (
     <div className='homecont'>
@@ -17,8 +18,11 @@ export default function Home() {
   FUNZONE
 </MovingComponent>
 
-<img src={homeill} width={400} height={400}  /><br></br>
+
+<Buttonn />
 <div className="tag">🎊One way to uplift your mood, make you happy, setting up a date or chilling with friends! Dive in to the Fun🎊</div>
+
+
     </div>
   )
 }

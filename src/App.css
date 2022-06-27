@@ -73,6 +73,27 @@ body{
       background-position: 0% 50%;
   }
 }
+
+.button{
+  display: inline-flex;
+  gap: 10em;
+}
+.btn11, .btn12{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+ background-size: cover;
+ animation: gradient 15s ease infinite;
+ padding: 5px;
+ border: 2px solid transparent;
+ border-radius: 12px;
+ margin: 1em;
+ height: 20%;
+}
+.btn1,.btn2, .btn1:hover, .btn2:hover{
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 8px;
+}
 iframe, video{
   height: 250px;
   width: 400px ;
