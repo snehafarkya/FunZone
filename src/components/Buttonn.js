@@ -20,7 +20,18 @@ export default function Buttonn() {
                
             </div>
             <div className="btn13">
-            <img src={homeill} width={380} height={380}  />
+                
+            <MovingComponent
+                 type="popIn"
+                 duration="1000ms"
+                 delay="0s"
+                 direction="normal"
+                 timing="ease"
+                 iteration="5"
+                  fillMode="none">
+                        <img src={homeill} width={380} height={380}  />
+            </MovingComponent>
+            
             </div>
             <div className="btn12">
             <MovingComponent
