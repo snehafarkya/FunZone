@@ -100,7 +100,7 @@ export default function Music() {
         },
         {
             title : "Love me like you do",
-            vido : "https://www.youtube.com/embed/725WlG1idPc"
+            vido : "https://www.youtube.com/embed/EEX_XM6SxmY"
         },
         {
             title : "Until I found you",
