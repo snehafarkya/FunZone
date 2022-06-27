@@ -36,3 +36,108 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-image: url("https://media1.giphy.com/media/326d5iOUoYY8N6uFPm/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  /* background-color: darkmagenta; */
+}
+/* for home */
+.homecont{
+  text-align: center;
+  color: White;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+iframe, video{
+  height: 400px;
+  width: 400px ;
+  
+}
+.h2{
+  
+ 
+  color: white;
+  
+  /* background-color: #282c34; */
+ 
+}
+.tit{
+  color: aliceblue;
+  text-align: center;
+
+}
+.mainc{
+  background: darkmagenta;
+  background-image: url("https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110vh;
+  width: 100vw;
+  color: aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+ 
+ 
+
+}
+
+
+h3{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.choice{
+  display: inline-block;
+  margin-bottom: 25em;
+  text-align: center;
+  
+  align-items: center;
+  justify-content: center;
+}
+/* .holly{
+  float: right;
+} */
+.holly, .bolly,.pun{
+  background-color: rgba(251, 252, 252, 0.849);
+  height: 60px;
+  width: 400px;
+  border-radius: 0.7em;
+  border: 2px transparent solid;
+  margin: 1em auto;
+}
+.holly:hover, .bolly:hover, .pun:hover{
+  transition: all 0.5s ease-in-out;
+  /* transform: translate3d(10px,-1px,-6px); */
+  transform: scale3d(1.2,1.2,1.5);
+  border: 2px rgba(22, 22, 22, 0.126) solid;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.447));
+  /* height: 70px;
+  width: 420px; */
+
+
+
+}
+.choiceLink{
+  color: #3576f8;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  margin: 3%;
+}
+.choiceLink:hover{
+  color: rgb(243, 21, 228);
+  padding: 5%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+ background-color: rgba(0, 0, 0, 0.591);
+ padding: 3em;
+ margin-top: 5em;
+}
