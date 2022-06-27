@@ -176,6 +176,6 @@ h3{
   .grid, .gridd{
     display: grid;
     grid-template-columns: auto;
-    
+    padding-top: 2em;
   }
 }
