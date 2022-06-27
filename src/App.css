@@ -235,6 +235,7 @@ h3{
     font-size: 0.5em;
     padding: 0.6em;
     border-radius: 16px;
+    margin-top: 1em;
   }
   .button{
     display: grid;
