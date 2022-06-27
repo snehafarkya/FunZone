@@ -177,7 +177,7 @@ h3{
     display: grid;
     grid-template-columns: auto;
     padding-top: 2em;
-    padding-left: 0;
+    padding-left: 0.3em;
   }
   .holly, .bolly,.pun, .part{
     height: 50px;
@@ -185,6 +185,6 @@ h3{
   }
   .choiceLink{
     font-size: 1.5em; 
-    margin: 4%;
+    margin: 5%;
   }
 }
