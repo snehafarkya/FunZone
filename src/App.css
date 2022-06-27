@@ -42,6 +42,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  
   width: 100vw;
   /* background-color: darkmagenta; */
 }
@@ -55,7 +56,7 @@ body{
 }
 
 iframe, video{
-  height: 400px;
+  height: 250px;
   width: 400px ;
   
 }
@@ -70,10 +71,12 @@ iframe, video{
 .tit{
   color: aliceblue;
   text-align: center;
+  font-size: 0.7em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 .mainc{
-  background: darkmagenta;
+
   background-image: url("https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680");
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,19 +85,17 @@ iframe, video{
   color: aliceblue;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
- 
- 
-
+  /* background: darkmagenta; */
 }
 
 
 h3{
   padding-top: 4em;
-  padding-bottom: 4em;
+  
 }
 .choice{
   display: inline-block;
-  margin-bottom: 25em;
+  margin-bottom: 23em;
   text-align: center;
   
   align-items: center;
@@ -103,7 +104,7 @@ h3{
 /* .holly{
   float: right;
 } */
-.holly, .bolly,.pun{
+.holly, .bolly,.pun, .part{
   background-color: rgba(251, 252, 252, 0.849);
   height: 60px;
   width: 400px;
@@ -111,7 +112,7 @@ h3{
   border: 2px transparent solid;
   margin: 1em auto;
 }
-.holly:hover, .bolly:hover, .pun:hover{
+.holly:hover, .bolly:hover, .pun:hover, .part:hover{
   transition: all 0.5s ease-in-out;
   /* transform: translate3d(10px,-1px,-6px); */
   transform: scale3d(1.2,1.2,1.5);
@@ -137,7 +138,32 @@ h3{
 .grid{
   display: grid;
   grid-template-columns: auto auto auto;
- background-color: rgba(0, 0, 0, 0.591);
  padding: 3em;
- margin-top: 5em;
+
+ /* margin-top: -1em; */
+}
+.hollysec, .bollysec, .punsec, .partysec{
+  background-color: rgba(50, 49, 49, 0.918);
+
+}
+.bollysec{
+  margin-top: -1em;
+  padding-top: 2em;
+}
+
+.h4{
+  background: -webkit-linear-gradient(rgb(230, 156, 215), rgb(222, 200, 200),rgb(165, 248, 165));
+  font-weight: bold;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: rgb(90, 216, 247);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+}
+.gridd{
+  display: grid;
+  grid-template-columns: auto auto auto;
+ padding: 3em;
+  
 }

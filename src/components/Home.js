@@ -1,7 +1,6 @@
 import React from 'react'
 import MovingComponent from 'react-moving-text'
-import Navb from './Navb'
-
+import homeill from '../Assests/homeill.webp'
 export default function Home() {
   return (
     <div className='homecont'>
@@ -17,6 +16,8 @@ export default function Home() {
   fillMode="none">
   FUNZONE
 </MovingComponent>
-        </div>
+
+<img src={homeill} width={400} height={400}  />
+    </div>
   )
 }
