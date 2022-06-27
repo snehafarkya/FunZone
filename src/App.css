@@ -211,7 +211,7 @@ h3{
 @media screen and (max-width:600px) {
   body{
     width: 100%;
-    height: 100%;
+    height: 100vh;
   }
   .grid, .gridd{
     display: grid;
@@ -236,5 +236,8 @@ h3{
     display: grid;
     grid-template-columns: auto;
 
+  }
+  .btn11, .btn12{
+    display: none;
   }
 }
