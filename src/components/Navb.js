@@ -12,8 +12,8 @@ export default function Navb() {
         <Nav className="me-auto">
           <Nav.Link className='alink' href="#home"> <Link to="/">Home</Link> </Nav.Link>
           <Nav.Link className='alink'  href="#link"><Link to="/Music">Music</Link></Nav.Link>
-          <Nav.Link className='alink'  href="#link">Movie</Nav.Link>
-          <Nav.Link className='alink' href="#link">Contact</Nav.Link>
+          <Nav.Link className='alink'  href="#link"></Nav.Link>
+          <Nav.Link className='alink' href="#link"><Link to="/Contact">Contact</Link></Nav.Link>
          
         </Nav>
       </Navbar.Collapse>

@@ -249,3 +249,37 @@ h3{
     display: none;
   }
 }
+
+/* contact page */
+.bodycon{
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/942/295/non_2x/retro-abstract-background-vintage-geometric-stripes-design-simple-colorful-lines-classic-grunge-wallpaper-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main{
+  display: flex;
+  gap: 24em;
+}
+#pro{
+  border-radius: 50%;
+  filter: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.566));
+  margin-top: 2%;
+  height: 550px;
+  width: 550px;
+}
+.form{
+  margin-top: 7%;
+  
+}
+center{
+  padding-top: 1em;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.foot{
+  margin-top: 2%;
+}
