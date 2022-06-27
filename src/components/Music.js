@@ -56,28 +56,28 @@ export default function Music() {
         }
     ];
     const punjabi = [{
-        title : "Bekhayali",
-        vido : "https://www.youtube.com/embed/Ps4aVpIESkc"
+        title : "Lehanga",
+        vido : "https://www.youtube.com/embed/RKioDWlajvo"
     },
     {
-        title : "Tujhe Kitna Chahein Aur",
-        vido : "https://www.youtube.com/embed/92J9p0VplTo"
+        title : "High Rated Gabru",
+        vido : "https://www.youtube.com/embed/hjWf8A0YNSE"
     },
     {
-        title : "Agar Tum Saath Ho",
-        vido : "https://www.youtube.com/embed/xRb8hxwN5zc"
+        title : "Kya Baat Ay",
+        vido : "https://www.youtube.com/embed/G0Hx6uN2AJE"
     },
     {
-        title : "Main Rahoon Ya Na Rahoon ",
-        vido : "https://www.youtube.com/embed/Dp6lbdoprZ0"
+        title : "Sakhiyaan ",
+        vido : "https://www.youtube.com/embed/S-ezhTXPVGU"
     },
     {
-        title : "Gajab Ka Hai Din",
-        vido : "https://www.youtube.com/embed/d2p2Lh9AbSY"
+        title : "The Last Ride",
+        vido : "https://www.youtube.com/embed/6xoB4ZiKKn0"
     },
     {
-        title : "Jaan Ban Gaye",
-        vido : "https://www.youtube.com/embed/a6cJAFFQn_I"
+        title : "Bijlee Bijlee",
+        vido : "https://www.youtube.com/embed/NwdQx2P_ytk"
     }
 ];
 
@@ -99,12 +99,12 @@ export default function Music() {
             vido : "https://www.youtube.com/embed/EEX_XM6SxmY"
         },
         {
-            title : "Love me like you do",
-            vido : "https://www.youtube.com/embed/EEX_XM6SxmY"
+            title : "Gallan Goodiyaan",
+            vido : "https://www.youtube.com/embed/jCEdTq3j-0U"
         },
         {
-            title : "Until I found you",
-            vido : "https://www.youtube.com/embed/MlThQTo6D8A"
+            title : "Nachange Saari Raat",
+            vido : "https://www.youtube.com/embed/rxMmistOjCA"
         }
     ];
     const [Bsongs,setBsongs] = useState(bollywood) 
@@ -126,7 +126,7 @@ export default function Music() {
             iteration="1"
             fillMode="none">
             <div className="bolly">
-                <a  className='choiceLink' href="#boly">Bollywood</a>
+                <a  className='choiceLink' href="#boly">Bollywood 💃</a>
             </div>
         </MovingComponent>
         <MovingComponent
@@ -138,7 +138,7 @@ export default function Music() {
             iteration="1"
             fillMode="none">
            <div className="holly">
-                <a className='choiceLink' href="#holy">Hollywood</a>
+                <a className='choiceLink' href="#holy">Hollywood 🕺</a>
             </div>
         </MovingComponent>
         <MovingComponent
@@ -150,7 +150,7 @@ export default function Music() {
             iteration="1"
             fillMode="none">
             <div className="pun">
-                <a  className='choiceLink' href="#pun">Punjabi</a>
+                <a  className='choiceLink' href="#pun">Punjabi 🥁</a>
             </div>
         </MovingComponent>
         <MovingComponent
@@ -162,7 +162,7 @@ export default function Music() {
             iteration="1"
             fillMode="none">
            <div className="part">
-                <a className='choiceLink' href="#part">Party Poppers</a>
+                <a className='choiceLink' href="#part">Party Poppers ✨</a>
             </div>
         </MovingComponent>
         </div>
@@ -204,7 +204,7 @@ export default function Music() {
         </section>
         {/* punjabi */}
         <section className='punsec' id='pun'>
-         <div className='h4'>Desi Tadka</div>
+         <div className='h4'>Punjabi Punch</div>
         <div className='grid' >
 
         {
@@ -221,7 +221,7 @@ export default function Music() {
          </section>
          {/* party songs */}
          <section className='partysec' id='part'>
-         <div className='h4'>Get the Bang on with the top pop Music!</div>
+         <div className='h4'>Get on the Floor!</div>
          <div className='gridd' >
             {
         Pasongs.map((vall) => {
