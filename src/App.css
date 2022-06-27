@@ -292,7 +292,7 @@ center{
   .main{
     display: grid;
     grid-template-columns: auto;
-
+    text-align: center;
   }
 .form{
   width: 90%;
