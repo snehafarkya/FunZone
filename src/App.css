@@ -293,7 +293,7 @@ center{
     display: grid;
     grid-template-columns: auto;
     text-align: center;
-    gap: 10em;
+    gap: 6em;
   }
 .form{
   width: 93%;
@@ -301,6 +301,7 @@ center{
   color: white;
 }
 #pro{
+  margin-top: 2em;
   height: 410px;
   width: 410px;
 }
