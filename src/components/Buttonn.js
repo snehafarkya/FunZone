@@ -7,17 +7,7 @@ export default function Buttonn() {
     <div>
         <div className="button">
             <div className="btn11">
-            <MovingComponent
-                type="hangOnLeft"
-                 duration="2000ms"
-                 delay="0s"
-                 direction="normal"
-                 timing="ease"
-                 iteration="infinite"
-                 fillMode="none">
-                    <a className='btn1'  href="./Music">Music</a>
-            </MovingComponent>
-               
+            <a className='btn1'  href="./Music">Music</a>
             </div>
             <div className="btn13">
                 
@@ -34,16 +24,7 @@ export default function Buttonn() {
             
             </div>
             <div className="btn12">
-            <MovingComponent
-                type="hangOnRight"
-                duration="2000ms"
-                delay="0s"
-                direction="normal"
-                timing="ease"
-                iteration="infinite"
-                fillMode="none">
-                <a className='btn2' href="./Music.js">Movie</a>
-            </MovingComponent>
+            <a className='btn2' href="./Music.js">Movie</a>
 
             </div>
 </div>
