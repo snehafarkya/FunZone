@@ -17,7 +17,8 @@ export default function Home() {
   FUNZONE
 </MovingComponent>
 
-<img src={homeill} width={400} height={400}  />
+<img src={homeill} width={400} height={400}  /><br></br>
+<div className="tag">🎊One way to uplift your mood, make you happy, setting up a date or chilling with friends! Dive in to the Fun🎊</div>
     </div>
   )
 }
