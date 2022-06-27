@@ -167,3 +167,15 @@ h3{
  padding: 3em;
   
 }
+
+/* responsive design for music page */ 
+@media screen and (max-width:600px) {
+  body{
+    width: 100%;
+  }
+  .grid, .gridd{
+    display: grid;
+    grid-template-columns: auto;
+    
+  }
+}
