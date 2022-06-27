@@ -295,8 +295,12 @@ center{
 
   }
 .form{
-  width: 30%;
+  width: 60%;
+  margin: 0.6em;
 
 }
-
+#pro{
+  height: 350px;
+  width: 350px;
+}
 }
