@@ -293,7 +293,7 @@ center{
     display: grid;
     grid-template-columns: auto;
     text-align: center;
-    gap: 1em;
+    gap: 10em;
   }
 .form{
   width: 93%;
