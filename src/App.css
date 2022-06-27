@@ -294,5 +294,9 @@ center{
     grid-template-columns: auto;
 
   }
+.form{
+  width: 90%;
+
+}
 
 }
