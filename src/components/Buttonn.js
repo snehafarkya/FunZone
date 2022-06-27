@@ -27,7 +27,7 @@ export default function Buttonn() {
                  delay="0s"
                  direction="normal"
                  timing="ease"
-                 iteration="5"
+                 iteration="1"
                   fillMode="none">
                         <img src={homeill} width={380} height={380}  />
             </MovingComponent>
